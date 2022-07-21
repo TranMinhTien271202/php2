@@ -1,0 +1,9 @@
+{
+    "name": "lenovo/mvc",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
