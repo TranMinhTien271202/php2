@@ -7,10 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-<a href="/">chuyeenr</a><br>
-    <?php
-    foreach ($product as $pro): ?>
-    <a href="detail?id=<?= $pro->id ?>"><?= $pro->name ?></a><br>
-    <?php endforeach ?>
+    <?= $product->name ?>
 </body>
 </html>
